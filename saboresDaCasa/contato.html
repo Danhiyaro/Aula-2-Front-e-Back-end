@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sabores da Casa - Contato</title>
+</head>
+
+<body>
+    <header>
+        <p>RECEITAS SIMPLES PARA TODOS OS DIAS</p>
+        <h1>Sabores da Casa</h1>
+        <nav aria-label="Navegação principal">
+            <a href="index.html">Início</a>
+            <a href="receitas.html">Receitas</a>
+            <a href="receitas2.html">Bolo</a>
+            <a href="receitas3.html">Massa</a>
+            <a href="dicas.html">Dicas</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <header>
+            <p>FALE CONOSCO</p>
+            <h2>
+                Contato
+            </h2>
+            <p>
+                Envie uma sugestão de receita,
+                dúvida ou comentário.
+            </p>
+        </header>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>
+                    Dados pessoais
+                </legend>
+                <p>
+                    <label for="nome">
+                        Nome completo:
+                    </label>
+                    <br>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        autocomplete="name"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="email">
+                        E-mail:
+                    </label>
+                    <br>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        required>
+                </p>
+                
+                <p>
+                    <label for="telefone">
+                        Telefone:
+                    </label>
+                    <br>
+                    <input
+                        type="tel"
+                        id="telefone"
+                        name="telefone"
+                        placeholder="(11) 99999-9999"
+                        autocomplete="tel">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Mensagem
+                </legend>
+                <p>
+                    <label for="assunto">
+                        Assunto:
+                    </label>
+                    <br>
+                    <select
+                        id="assunto"
+                        name="assunto"
+                        required>
+
+                        <option value="">
+                            Selecione
+                        </option>
+
+                        <option value="receita">
+                            Sugestão de receita
+                        </option>
+
+                        <option value="duvida">
+                            Dúvida
+                        </option>
+
+                        <option value="comentario">
+                            Comentário
+                        </option>
+
+                    </select>
+                </p>
+
+                <p>
+                    Categoria preferida:
+                </p>
+
+                <label>
+
+                    <input
+                        type="radio"
+                        name="categoria"
+                        value="doces">
+                    Doces
+                </label>
+
+                <label>
+                    <input
+                        type="radio"
+                        name="categoria"
+                        value="salgados">
+                    Salgados
+                </label>
+
+                <p>
+                    <label for="mensagem">
+                        Mensagem:
+                    </label>
+                    <br>
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="7"
+                        cols="50"
+                        required></textarea>
+                </p>
+            </fieldset>
+
+            <p>
+                <label>
+                    <input
+                        type="checkbox"
+                        name="novidades"
+                        value="sim">
+                    Quero receber novas receitas
+                    por e-mail.
+                </label>
+            </p>
+
+            <button type="reset">
+                Limpar
+            </button>
+
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+    </main>
+
+    <footer>
+        <h2>Sabores da Casa</h2>
+        <p>
+            Receitas simples, práticas e cheias de sabor.
+        </p>
+        <address>
+            contato@saboresdacasa.com.br<br>
+            São Paulo - SP
+        </address>
+        <small>
+            &copy; 2027 Sabores da Casa.
+        </small>
+    </footer>
+</body>
+</html>
